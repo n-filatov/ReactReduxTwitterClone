@@ -1,0 +1,24 @@
+.home-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  max-width: 1190px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.home-page__left-block {
+  width: 290px;
+  height: 604px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 5px;
+
+}
+
+.home-page__right-block {
+  width: 290px;
+  height: 410px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.15);
+}

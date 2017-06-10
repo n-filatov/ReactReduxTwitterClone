@@ -1,10 +1,10 @@
 import React from 'react';
 import './header.css';
-import './navigation-button.css';
-import './search-from.css';
+import '../navigation-button.css';
+import '../search-from.css';
 
-const Header = () => {
-  const userAvatarUrl = 'https://pbs.twimg.com/profile_images/787155097159688192/iWYsZVlM_normal.jpg';
+const Header = (props) => {
+  const userAvatarUrl =  props.userAvatar;
   return (
     <div className="header__wrapper">
       <div className="header">
