@@ -1,0 +1,15 @@
+.navigation-button:hover {
+  border-bottom: 5px solid;
+  color: inherit;
+}
+
+.navigation-button__icon {
+  font-size: 1.615em;
+  padding-top: 12px;
+}
+
+.navigation-button__text {
+  font-size: 1em;
+  margin-left: 5px;
+  padding-top: 14px;
+}
